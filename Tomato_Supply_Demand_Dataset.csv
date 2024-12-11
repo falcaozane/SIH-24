@@ -1,0 +1,11 @@
+Region,Season,Production Volume (Tonnes),Cultivated Area (Hectares),Yield (kg/ha),Irrigation Coverage (%),Seed Type,Fertilizer Usage (kg/ha),Pesticide Usage (L/ha),Storage Availability,Rainfall (mm),Temperature (°C),Humidity (%),Labor Availability,Wholesale Price (₹/kg),Retail Price (₹/kg),Domestic Consumption (Tonnes),Export Volume (Tonnes),Processing Demand (Tonnes),Transportation Cost (₹/tonne)
+Maharashtra,Kharif,20000,2500,8000,80,Hybrid,250,5,Cold,150,28,70,150,15,25,350000,10000,15000,1000
+Tamil Nadu,Rabi,15000,1800,8333,90,Hybrid,300,6,Cold,120,30,65,120,18,30,320000,8000,12000,1200
+Karnataka,Kharif,25000,3000,8333,85,Non-Hybrid,200,4,General,140,27,72,200,12,22,400000,12000,18000,1500
+Uttar Pradesh,Rabi,18000,2200,8181,75,Hybrid,280,7,Cold,100,25,60,170,14,24,350000,7000,10000,1100
+Andhra Pradesh,Kharif,22000,2800,7857,70,Hybrid,250,5,General,160,26,68,180,16,26,370000,9000,14000,1300
+Gujarat,Rabi,12000,1500,8000,65,Non-Hybrid,230,6,General,80,24,55,110,13,21,290000,6000,9000,950
+West Bengal,Kharif,19000,2300,8261,85,Hybrid,270,6,Cold,130,29,75,140,14,23,360000,8000,13000,1200
+Punjab,Rabi,10000,1200,8333,95,Hybrid,320,7,Cold,90,25,60,100,20,28,250000,5000,8000,900
+Rajasthan,Kharif,16000,2000,8000,60,Non-Hybrid,200,5,General,180,30,50,130,12,20,300000,7000,10000,1100
+Madhya Pradesh,Rabi,14000,1700,8235,70,Hybrid,260,6,General,110,26,65,160,15,25,320000,6000,9000,1000
