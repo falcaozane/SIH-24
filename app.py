@@ -3,12 +3,14 @@ import pandas as pd
 import numpy as np
 from flask import Flask, request, jsonify
 from flask_restful import Api, Resource
+from flask_cors import CORS  # Import CORS
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app)
 
 class MarketPriceDemandForecaster:
     def __init__(self, csv_path):
