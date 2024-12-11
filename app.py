@@ -113,7 +113,7 @@ class MarketPriceDemandForecaster:
 
 # Global model instance
 # Ensure the CSV file is in the same directory as the script
-CSV_PATH = 'tomato.csv'
+CSV_PATH = 'Tomato-dataset.csv'
 
 # Check if CSV exists
 if not os.path.exists(CSV_PATH):
