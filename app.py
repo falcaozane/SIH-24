@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
+import os
 
 app = FastAPI()
 
@@ -56,3 +57,8 @@ async def predict(input_data: PredictionInput):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.getenv("PORT", 8000))  # Use PORT from environment variable or default to 8000
+    uvicorn.run(app, host="0.0.0.0", port=port)
